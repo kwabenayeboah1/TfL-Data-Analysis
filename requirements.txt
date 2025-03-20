@@ -1,0 +1,13 @@
+fastjsonschema @ file:///C:/b/abs_4ev90296ly/croot/python-fastjsonschema_1731939386416/work
+json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
+jsonpatch @ file:///C:/b/abs_4fdm88t7zi/croot/jsonpatch_1714483974578/work
+jsonpointer==2.1
+jsonschema @ file:///C:/b/abs_394_t6__xq/croot/jsonschema_1728486718320/work
+jsonschema-specifications @ file:///C:/b/abs_0brvm6vryw/croot/jsonschema-specifications_1699032417323/work
+python-json-logger @ file:///C:/b/abs_0cm_mnox0z/croot/python-json-logger_1734370042436/work
+python-lsp-jsonrpc==1.0.0
+ujson @ file:///C:/ci/ujson_1611259568517/work
+folium @ file:///C:/b/abs_da1gvm65eq/croot/folium_1675353720461/work
+sortedcollections @ file:///tmp/build/80754af9/sortedcollections_1611172717284/work
+ipython @ file:///C:/ci/ipython_1635944283918/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
