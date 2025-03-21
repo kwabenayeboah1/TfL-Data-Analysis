@@ -29,7 +29,7 @@ The analysis focuses on visualizing accident locations using an interactive map 
 ### Running the Analysis
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/TfL-Data-Analysis.git](https://github.com/kwabenayeboah1/TfL-Data-Analysis.git
+   git clone [https://github.com/your-username/TfL-Data-Analysis.git](https://github.com/kwabenayeboah1/TfL-Data-Analysis.git](https://github.com/kwabenayeboah1/TfL-Data-Analysis.git)
    ```
 2. Navigate to the project directory:
    ```sh
