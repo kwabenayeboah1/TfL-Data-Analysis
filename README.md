@@ -49,9 +49,6 @@ It also highlights the severity of accidents and the vehicles involved to give g
 ## Contributing
 Contributions are welcome! Feel free to fork this repository, make improvements, and submit a pull request. I am always looking to learn, if there are any improvements to the code please feel free.
 
-## License
-This project is open-source under the MIT License.
-
 ## Assumptions about the Data
 - Assume that accidents are recorded in tandem with the number of people involved. I have inferred this because there are entries that are identical in attributes with differing IDs. I have not had contact with TfL to determine whether this is the case, but would be beneficial to know just so analysis on the data is accurate.
 
@@ -72,5 +69,6 @@ City planners could use this to improve cycling infrastructure, create pedestria
 - #### Road Maintenance & Infrastructure Upgrades
 The government could analyze the correlation between accident locations and road conditions (e.g., potholes, poor visibility) to prioritize repairs.
 
-
+## License
+This project is open-source under the MIT License.
 
