@@ -1,30 +1,28 @@
 # TfL Incident Analysis
 
 ## Overview:
-This is an analysis of Data provided using the Transport for London API for incidents reported on the network between the years 2005-2006.
+This is an analysis of Data provided using the Transport for London API for incidents reported on the network for the year 2006.
 The analysis focuses on visualizing accident locations using an interactive map and clustering techniques to identify high-risk areas.
 It also highlights the severity of accidents and the vehicles involved to give greater insight into the type of accidents occuring within London, how frequent they are and the vehicles involved.
 
 ## Analysis Approach:
-1. **Data Source**: The dataset consists of incident reports from TfL for 2005 and 2006. While additional years are available, this project initially focuses on these two years as a means of understanding how the data was initially collated.
+1. **Data Source**: The dataset consists of incident reports from TfL 2006. While additional years are available, this project initially focuses on 2006 as a means of understanding how the data was collated.
 2. **Visualization**: Incident locations are plotted on an interactive map using the Folium package.
 3. **Clustering**: Accidents are grouped to identify high-density accident zones. This also maens it is less intensive on the system the script is being ran on and allows for easier viewing.
 4. **Findings**:
    - Certain locations exhibited consistently high incident rates, which may indicate hazardous road conditions or high traffic density.
    - Where incidents have been logged twice with differing IDs, assumption that TfL has logged the incident in accordance with the number of individuals involved (e.g - an accident with 3 vehicles would be logged thrice with differing IDs)
 
-## Technologies Used:
-- **Postman**: Used to download the response.json once TfL is accessed via the API Key
-- **Folium**: For interactive map visualization.
+
+## Technologies + Notable Packages Used:
+- **Folium**: For interactive map visualisation.
 - **JSON Parsing**: Extracting data from the TfL API response by parsing the JSON into the attritubes required.
 - **Jupyter Notebook**: Used for executing the analysis. Ease of use and readability makes Jupyter great for this kind of analysis.
 
 ## How to Run the Project:
 ### Prerequisites
-1. **Sign up for a TfL API Key**: The dataset is obtained via an API request (https://api.tfl.gov.uk/).
-2. **Download the relevant JSON via Postman**: The data for 2005/2006 has already been provided, however for further analysis, use of the Postman Client will allow you to download subsequent years.
-3. **Download the JSON response**: Once authenticated, download the dataset and save it as `response.json` with the subsequent year.
-4. **Install Dependencies**:
+
+1. **Install Dependencies**:
    ```sh
    pip install -r requirements.txt
    ```
