@@ -43,6 +43,7 @@ It also highlights the severity of accidents and the vehicles involved to give g
 - Possibility to combine and compare years in a single Map interface
 - Possibility to introduce Machine Learning to highlight areas prone to accidents and predict where areas in the future may require due attention
 - Incorporate severity analysis across the years to determine the trend in severity as London learns to commit to safer roads
+- Possibly adding weather data/statistics where possible to understand how the weather may have influenced accidents
 
 ## Contributing
 Contributions are welcome! Feel free to fork this repository, make improvements, and submit a pull request. I am always looking to learn, if there are any improvements to the code please feel free.
