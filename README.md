@@ -27,7 +27,7 @@ This repository analyses Transport for London (TfL) Incident Data from the years
 ### Running the Analysis
 1. Clone this repository:
    ```sh
-   git clone (https://github.com/kwabenayeboah1/TfL-Data-Analysis.git]
+   git clone (https://github.com/kwabenayeboah1/TfL-Data-Analysis.git)
    ```
 2. Navigate to the project directory:
    ```sh
