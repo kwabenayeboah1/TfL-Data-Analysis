@@ -27,7 +27,7 @@ This repository analyses Transport for London (TfL) Incident Data from the years
 ### Running the Analysis
 1. Clone this repository:
    ```sh
-   git clone (https://github.com/kwabenayeboah1/TfL-Data-Analysis.git)
+   git clone [https://github.com/kwabenayeboah1/TfL-Data-Analysis.git]
    ```
 2. Navigate to the project directory:
    ```sh
@@ -42,6 +42,7 @@ This repository analyses Transport for London (TfL) Incident Data from the years
 - **Predictive Modelling** Introduce Machine Learning techniques to identify accident-prone areas and forecast future locations requiring attention.
 - **Severity Trend Analysis** Incorporate a cross-year severity analysis to ascertain trends in accident severity, reflecting London's commitment to safer roads.
 - **Environmental Factors** Investigate the potential influence of weather data and statistics on accident occurrences, where feasible.
+- **Further Dataset Addition** Understand whether supplementary data could improve the data we have, as well as fill in any missing gaps within the current datasets. One such example would be police reports to further enrich some of the incidents recorded.
 
 ## Contributing
 Contributions are welcome! Feel free to fork this repository, make improvements, and submit a pull request. I am always looking to learn, if there are any improvements to the code please feel free.
