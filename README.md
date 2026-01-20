@@ -46,16 +46,21 @@ These stats were derived from the 2006 .json dataset.
 <img width="1841" height="1361" alt="image" src="https://github.com/user-attachments/assets/fb691811-f6a4-4cbc-a093-b469bc70130b" />
 
 * Drawing from the 2006 dataset, this analysis delivers key statistics that offer a comprehensive understanding of incident distribution across London's boroughs. Crucially, the output will identify the incident categories with the highest frequency, clearly indicating the specific borough where each peak occurred and the corresponding total number of incidents. 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Analysis of Categories of Severity per Borough
 <img width="2037" height="867" alt="image" src="https://github.com/user-attachments/assets/d0ab9625-d59a-4c60-821d-fecd602a0336" />
 
-* Beyond identifying high-incident areas, the notebook will further dissect the data to present a categorical breakdown of incidents. Crucially, for each incident category, it will pinpoint the London borough demonstrating the lowest recorded number of occurrences (as well as the highest recorded number), thereby offering valuable comparative insights into areas of relative safety or successful mitigation. When this analysis is repeated across the datasets spanning the years 2005-2019, it would effectively highlight trends in successful mitigation strategies or identify areas becoming increasingly prone to incidents.
+* Beyond identifying high-incident areas, the notebook will further dissect the data to present a categorical breakdown of incidents. Crucially, for each incident category, it will pinpoint the London borough demonstrating the lowest recorded number of occurrences (as well as the highest recorded number), thereby offering valuable comparative insights into areas of relative safety or successful mitigation.
+* When this analysis is repeated across the datasets spanning the years 2005-2019, it would effectively highlight trends in successful mitigation strategies or identify areas becoming increasingly prone to incidents.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Analysis of Vehicle Type and Incident Involvement
 <img width="822" height="854" alt="image" src="https://github.com/user-attachments/assets/629e79f4-70df-41a1-83b5-7cfc29f60a4b" />
 
-* A detailed understanding of the vehicle types involved in such incidents is paramount for developing and implementing appropriate safety features and policies throughout London, thereby contributing to overall road safety improvements. Furthermore, comprehending the proportional representation of various vehicle types in accident statistics would be highly beneficial for discerning comparative safety trends and formulating effective incident mitigation plans
+* A detailed understanding of the vehicle types involved in such incidents is paramount for developing and implementing appropriate safety features and policies throughout London, thereby contributing to overall road safety improvements. Furthermore, comprehending the proportional representation of various vehicle types in accident statistics would be highly beneficial for discerning comparative safety trends and formulating effective incident mitigation plans.
+* The distinction between Drivers and Passengers could further drive insights if enriched with supplementary data to determine how best to protect those in control of the vehicle as well as those who are travelling with the driver.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Analysis of Casualties per Vehicle Type
 <img width="1299" height="839" alt="image" src="https://github.com/user-attachments/assets/aab85605-c82e-44af-a32b-f160b9e4d1a1" />
@@ -63,12 +68,13 @@ These stats were derived from the 2006 .json dataset.
 * Our analysis provides a view of casualties occurring across the transport network. It is important to note that the dataset does not explicitly distinguish between minor injuries, serious injuries, and fatalities. Therefore, for the purpose of this analysis, the assumption has been made that 'casualties' refers to any individual who would have sought medical treatment as a direct result of an incident.
 * To enhance the granularity and utility of this dataset, a future improvement could involve extracting incidents with known fatalities and comparing these figures against the overall number of casualties. This would allow for a more nuanced understanding of incident severity and the nature of this dataset that has been provided by TfL.
 * Regardless of this distinction, the current data remains highly insightful, providing crucial information on the number of individuals affected by incidents. This understanding is invaluable for informing strategies to further improve road safety. Furthermore, if access to more detailed information regarding the technology and design of various transport modes were available, this casualty data could be leveraged to drive advancements in vehicle safety features and infrastructure design.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Severity of Incidents per Vehicle Type
 <img width="1491" height="893" alt="image" src="https://github.com/user-attachments/assets/ebde9b80-51f3-4229-8517-dca4b32b910f" />
 
 * The data on vehicle types involved in incidents offers a critical lens through which to assess road safety. By understanding this composition with the severity of incidents, we can identify specific areas for intervention, such as the implementation of bespoke safety features across London. This insight is also invaluable for tracking comparative safety trends over time and for developing targeted strategies to mitigate future incidents.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Breakdown of Fatal Incidents by Vehicle Type
 <img width="825" height="662" alt="image" src="https://github.com/user-attachments/assets/2b671caf-3855-49dd-a420-a5e99e88e2e2" />
@@ -78,7 +84,7 @@ These stats were derived from the 2006 .json dataset.
 * Therefore, for the purpose of this analysis, we operate under the assumption that a 'casualty' refers to any individual who sustained an injury in an incident and would have sought, or required, medical attention as a direct result. Fatalities, which represent the loss of life, are typically recorded as a distinct category due to their severe nature and specific reporting requirements. This distinction explains why the total number of 'casualties' and 'fatalities' may not directly sum, as a fatality is a specific type of outcome rather than just an injury requiring medical help.
 * To further enhance the analytical depth of this dataset, a valuable future step would be to explicitly extract and analyse incidents that resulted in known fatalities. This would allow for a direct comparison with the overall casualty figures, providing a more granular understanding of incident severity and its most tragic outcomes.
 * Regardless of this definitional nuance, the current data remains profoundly insightful. It provides critical information on the total number of people who have been adversely affected by incidents, offering a robust foundation for informing strategies to improve road safety. Furthermore, this data could be instrumental in driving advancements in the technology and design of various transport modes, particularly if more detailed information regarding vehicle specifications and infrastructure design were to become accessible
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Breakdown of Peak Times for Fatal Incidents
 <img width="866" height="1034" alt="image" src="https://github.com/user-attachments/assets/d54f8228-ae48-4a60-a7bf-a018141db5bc" />
@@ -86,7 +92,7 @@ These stats were derived from the 2006 .json dataset.
 * Our analysis further delves into the temporal distribution of fatal incidents, specifically identifying the hours of the day when these tragic events are most prevalent. This breakdown, ordered from the most common hour of occurrence to the least, provides crucial insights into the peak risk periods on the transport network.
 * By pinpointing these high-risk hours, stakeholders such as emergency services, transport authorities, and road safety organisations can strategically allocate resources, enhance surveillance, and implement targeted preventative measures. For instance, increased police presence, focused road safety campaigns, or dynamic traffic management strategies could be deployed during these identified peak times to mitigate the likelihood of fatal incidents.
 * Understanding these hourly patterns also contributes to a more comprehensive risk assessment, allowing for the development of time-sensitive interventions aimed at reducing the most severe outcomes on London's roads. This granular temporal insight is invaluable for optimising safety efforts and working towards a safer transport environment.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Breakdown of Peak Months for Fatal Incidents
 <img width="836" height="590" alt="image" src="https://github.com/user-attachments/assets/311e61aa-84c5-4cc6-9248-adfd6061bc04" />
@@ -113,35 +119,39 @@ However, while highly valuable, it's important to contextualise this metric with
 * Operational Changes: Any specific interventions or changes in transport operations during those months.
 
 In conclusion, the 'months with the highest fatal incidents' is a foundational and highly actionable metric. It provides clear direction for where and when to focus safety efforts, and its utility is maximised when integrated with other relevant datasets to uncover the root causes of these elevated risks, thereby informing robust, evidence-based preventative strategies.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-### Breakdown of Peak Months for Fatal Incidents
+### Breakdown of Peak Months for Total Incidents
 <img width="1011" height="735" alt="image" src="https://github.com/user-attachments/assets/cd0f0902-4404-4283-b29b-ab8fbecd690c" />
 
 * A detailed examination of incident frequency on a monthly basis would be highly insightful for identifying recurring patterns and trends across the calendar year. It is plausible that a direct link exists between certain months and incident rates, especially when accounting for external variables such as seasonal changes. For instance, the prevalence of snow or ice during winter months could significantly increase the likelihood of incidents. Understanding these seasonal correlations could inform predictive models and targeted preventative measures
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Breakdown of Fatalities per Borough
 <img width="720" height="1287" alt="image" src="https://github.com/user-attachments/assets/a8b5bbbe-8f95-4afa-83ad-7f46cedb1152" />
 
-* A crucial aspect of our analysis involves examining the distribution of fatal incidents across London's boroughs. This breakdown, presented in descending order from the borough with the highest number of fatalities to the lowest, provides a stark geographical overview of the most severe outcomes on the transport network.
+* A crucial aspect of our analysis involves examining the distribution of fatal incidents across London's boroughs. This breakdown, presented in descending order from the borough with the highest number of fatalities to the lowest, provides a stark overview of the most severe outcomes on the transport network.
 * By identifying the boroughs that experience a disproportionately higher number of road fatalities, this analysis serves as a vital tool for prioritising resources and intervention strategies. It allows stakeholders, such as TfL and local councils, to focus their efforts on specific areas where the risk to life is greatest. This granular understanding can inform targeted road safety campaigns, infrastructure improvements, and policy adjustments designed to mitigate the occurrence of fatal incidents in these high-risk locations.
 * Conversely, boroughs with consistently lower fatality rates may offer valuable insights into successful road safety practices or urban planning strategies that could be replicated elsewhere. This comparative analysis is essential for working towards the Vision Zero goal of eliminating all road deaths and serious injuries
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Breakdown of Incidents per Weekday
 <img width="806" height="408" alt="image" src="https://github.com/user-attachments/assets/3e0be93a-e433-48a8-b813-280c1adc3ea8" />
 
-* The analysis includes a statistical breakdown identifying the number of incidents per weekday. It highlights which days typically experience a greater number of incidents, offering a basic temporal understanding of when incidents are more likely to happen.
+* The analysis includes a statistical breakdown identifying the number of incidents per weekday. 
 
-* While identifying the most common day for an incident provides a foundational temporal insight, its standalone utility as a metric for deep analytical insights or targeted intervention is somewhat limited.
-* On its own, knowing that, for example, 'Thursday' is the most common day for incidents doesn't immediately explain why this is the case. It's a descriptive statistic that points to a pattern but lacks explanatory power. The underlying causes are likely multifaceted and influenced by other factors that correlate with specific days, such as:
-• Traffic Volume: Weekdays, particularly rush hours, naturally have higher traffic volumes, increasing exposure to risk.
-• Commuting Patterns: The start and end of the working week often see different types of journeys and driver behaviours.
-• Social Activities: Weekends, or specific evenings, might correlate with increased leisure travel, different vehicle mixes, or factors like impaired driving.
-• Operational Hours: Public transport operations and commercial vehicle movements vary by day.
+* While identifying the most common day for an incident provides a foundational temporal insight, its standalone utility as a metric for deep analytical insights or targeted intervention is somewhat limited. On its own, knowing that, for example, 'Thursday' is the most common day for incidents doesn't immediately explain why this is the case. It's a descriptive statistic that points to a pattern but lacks explanatory power. The underlying causes are likely multifaceted and influenced by other factors that correlate with specific days, such as:
+
+* Traffic Volume: Weekdays, particularly rush hours, naturally have higher traffic volumes, increasing exposure to risk.
+* Commuting Patterns: The start and end of the working week often see different types of journeys and driver behaviours.
+* Social Activities: Weekends, or specific evenings, might correlate with increased leisure travel, different vehicle mixes, or factors like impaired driving.
+* Operational Hours: Public transport operations and commercial vehicle movements vary by day.
 
 * Therefore, while it serves as a useful starting point for temporal analysis, its true value emerges when cross-referenced with other variables. For instance, combining the 'most common day' with 'peak hours', 'incident categories', 'vehicle types involved', or 'causality factors' would yield far more actionable intelligence. For example, if Fridays consistently show a higher number of pedestrian incidents during evening hours, this points to a more specific problem that can be addressed with targeted interventions.
 
 * In summary, the 'most common day for an incident' is a foundational descriptive statistic. It's a good initial indicator but requires further contextualisation and integration with other data points to become a truly powerful and actionable metric for informing road safety strategies.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Incomplete Data Consolidation
 <img width="825" height="1269" alt="image" src="https://github.com/user-attachments/assets/06942221-fc90-4bbe-9e65-90832f8f6263" />
@@ -149,11 +159,12 @@ In conclusion, the 'months with the highest fatal incidents' is a foundational a
 * This output provides a clear and concise overview of incidents where key metrics were not fully recorded within the JSON dataset. For each identified incident, the output will specify which particular data fields are absent or incomplete. This systematic identification of missing data points is crucial for understanding the overall completeness and reliability of the dataset.
 
 * Identifying and detailing incidents with incomplete data records is an absolutely essential metric for any robust data analysis and governance framework. Its utility is multifaceted and profoundly impacts the integrity and potential of the entire dataset:
-• Data Quality Assessment: This output serves as a primary indicator of data quality. It quantifies the extent of missing information, allowing for an objective assessment of the dataset's completeness and potential biases.
-• Informing Data Enrichment Strategies: By pinpointing precisely which metrics are frequently missing, this analysis directly informs strategies for data enrichment. For example, if 'contributing_factor' is consistently absent, it highlights a specific area where supplementary data collection or integration from other sources (e.g., police reports, witness statements) could significantly enhance the dataset's analytical power.
-• Understanding Data Collection Processes: Frequent gaps in specific fields can indicate issues within the data collection process itself. This insight can be invaluable for improving data capture mechanisms, training personnel, or refining reporting protocols to ensure more comprehensive data in the future.
-• Mitigating Analytical Bias: Awareness of missing data allows analysts to account for potential biases in their findings. If certain types of incidents are more prone to incomplete records, this knowledge can prevent erroneous conclusions.
-• Guiding Future Data Integration: If external datasets are being considered for integration, understanding the existing gaps helps in identifying which external sources would provide the most valuable supplementary information.
+
+* Data Quality Assessment: This output serves as a primary indicator of data quality. It quantifies the extent of missing information, allowing for an objective assessment of the dataset's completeness and potential biases.
+* Informing Data Enrichment Strategies: By pinpointing precisely which metrics are frequently missing, this analysis directly informs strategies for data enrichment. For example, if 'contributing_factor' is consistently absent, it highlights a specific area where supplementary data collection or integration from other sources (e.g., police reports, witness statements) could significantly enhance the dataset's analytical power.
+* Understanding Data Collection Processes: Frequent gaps in specific fields can indicate issues within the data collection process itself. This insight can be invaluable for improving data capture mechanisms, training personnel, or refining reporting protocols to ensure more comprehensive data in the future.
+* Mitigating Analytical Bias: Awareness of missing data allows analysts to account for potential biases in their findings. If certain types of incidents are more prone to incomplete records, this knowledge can prevent erroneous conclusions.
+* Guiding Future Data Integration: If external datasets are being considered for integration, understanding the existing gaps helps in identifying which external sources would provide the most valuable supplementary information.
 
 * In essence, this output moves beyond merely acknowledging data limitations; it provides the granular detail necessary to strategically address them. It transforms a known weakness into an actionable roadmap for data improvement, ultimately enhancing the reliability and depth of any subsequent analysis. Therefore, this is not just a useful metric, but a foundational one for data integrity and future analytical development
 
