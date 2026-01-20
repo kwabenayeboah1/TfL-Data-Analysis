@@ -130,18 +130,34 @@ In conclusion, the 'months with the highest fatal incidents' is a foundational a
 ### Breakdown of Incidents per Weekday
 <img width="806" height="408" alt="image" src="https://github.com/user-attachments/assets/3e0be93a-e433-48a8-b813-280c1adc3ea8" />
 
-The analysis includes a statistical breakdown identifying the number of incidents per weekday. It highlights which days typically experience a greater number of incidents, offering a basic temporal understanding of when incidents are more likely to happen.
+* The analysis includes a statistical breakdown identifying the number of incidents per weekday. It highlights which days typically experience a greater number of incidents, offering a basic temporal understanding of when incidents are more likely to happen.
 
-While identifying the most common day for an incident provides a foundational temporal insight, its standalone utility as a metric for deep analytical insights or targeted intervention is somewhat limited.
-On its own, knowing that, for example, 'Thursday' is the most common day for incidents doesn't immediately explain why this is the case. It's a descriptive statistic that points to a pattern but lacks explanatory power. The underlying causes are likely multifaceted and influenced by other factors that correlate with specific days, such as:
+* While identifying the most common day for an incident provides a foundational temporal insight, its standalone utility as a metric for deep analytical insights or targeted intervention is somewhat limited.
+* On its own, knowing that, for example, 'Thursday' is the most common day for incidents doesn't immediately explain why this is the case. It's a descriptive statistic that points to a pattern but lacks explanatory power. The underlying causes are likely multifaceted and influenced by other factors that correlate with specific days, such as:
 • Traffic Volume: Weekdays, particularly rush hours, naturally have higher traffic volumes, increasing exposure to risk.
 • Commuting Patterns: The start and end of the working week often see different types of journeys and driver behaviours.
 • Social Activities: Weekends, or specific evenings, might correlate with increased leisure travel, different vehicle mixes, or factors like impaired driving.
 • Operational Hours: Public transport operations and commercial vehicle movements vary by day.
 
-Therefore, while it serves as a useful starting point for temporal analysis, its true value emerges when cross-referenced with other variables. For instance, combining the 'most common day' with 'peak hours', 'incident categories', 'vehicle types involved', or 'causality factors' would yield far more actionable intelligence. For example, if Fridays consistently show a higher number of pedestrian incidents during evening hours, this points to a more specific problem that can be addressed with targeted interventions.
+* Therefore, while it serves as a useful starting point for temporal analysis, its true value emerges when cross-referenced with other variables. For instance, combining the 'most common day' with 'peak hours', 'incident categories', 'vehicle types involved', or 'causality factors' would yield far more actionable intelligence. For example, if Fridays consistently show a higher number of pedestrian incidents during evening hours, this points to a more specific problem that can be addressed with targeted interventions.
 
-In summary, the 'most common day for an incident' is a foundational descriptive statistic. It's a good initial indicator but requires further contextualisation and integration with other data points to become a truly powerful and actionable metric for informing road safety strategies.
+* In summary, the 'most common day for an incident' is a foundational descriptive statistic. It's a good initial indicator but requires further contextualisation and integration with other data points to become a truly powerful and actionable metric for informing road safety strategies.
+
+### Incomplete Data Consolidation
+<img width="825" height="1269" alt="image" src="https://github.com/user-attachments/assets/06942221-fc90-4bbe-9e65-90832f8f6263" />
+
+* This output provides a clear and concise overview of incidents where key metrics were not fully recorded within the JSON dataset. For each identified incident, the output will specify which particular data fields are absent or incomplete. This systematic identification of missing data points is crucial for understanding the overall completeness and reliability of the dataset.
+
+* Identifying and detailing incidents with incomplete data records is an absolutely essential metric for any robust data analysis and governance framework. Its utility is multifaceted and profoundly impacts the integrity and potential of the entire dataset:
+• Data Quality Assessment: This output serves as a primary indicator of data quality. It quantifies the extent of missing information, allowing for an objective assessment of the dataset's completeness and potential biases.
+• Informing Data Enrichment Strategies: By pinpointing precisely which metrics are frequently missing, this analysis directly informs strategies for data enrichment. For example, if 'contributing_factor' is consistently absent, it highlights a specific area where supplementary data collection or integration from other sources (e.g., police reports, witness statements) could significantly enhance the dataset's analytical power.
+• Understanding Data Collection Processes: Frequent gaps in specific fields can indicate issues within the data collection process itself. This insight can be invaluable for improving data capture mechanisms, training personnel, or refining reporting protocols to ensure more comprehensive data in the future.
+• Mitigating Analytical Bias: Awareness of missing data allows analysts to account for potential biases in their findings. If certain types of incidents are more prone to incomplete records, this knowledge can prevent erroneous conclusions.
+• Guiding Future Data Integration: If external datasets are being considered for integration, understanding the existing gaps helps in identifying which external sources would provide the most valuable supplementary information.
+
+* In essence, this output moves beyond merely acknowledging data limitations; it provides the granular detail necessary to strategically address them. It transforms a known weakness into an actionable roadmap for data improvement, ultimately enhancing the reliability and depth of any subsequent analysis. Therefore, this is not just a useful metric, but a foundational one for data integrity and future analytical development
+
+
 
 ## Future Improvements
 - **Expanded Temporal Analysis** Expand analysis to include additional years. [Completed Jan 2026]
