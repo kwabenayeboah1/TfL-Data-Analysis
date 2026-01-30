@@ -1,7 +1,7 @@
 # TfL Incident Analysis
 
 ## Overview:
-This repository analyses Transport for London (TfL) Incident Data from the years 2005-2019, sourced via the OpenAPI protocol provided by TfL. It features interactive visualisations of accident locations, employing clustering algorithms to identify areas with high-risk. Incidents recorded feature accident severity and the types of vehicles involved, providing granular insights into incident characteristics and prevalence within London Boroughs.
+This repository analyses Transport for London (TfL) Incident Data from the years 2005-2019, sourced via the OpenAPI protocol provided by TfL. It features interactive visualisations of accident locations, employing clustering algorithms to identify areas with high-risk. Incidents recorded feature accident severity and the types of vehicles involved, providing granular insights into incident characteristics and prevalence within London Boroughs. Please note that the notebook has the ability to combine all years into a single view using the glob package, though this map is over 1GB and may slow your machine down.
 
 ## Analysis Approach:
 1. **Data Source**: The datasets have been sourced from TfL's OpenAPI Protocol, which features recorded incidents from the years 2005-2019. An additional script to determine the number of .jsons downloadable is also included, to determine if/when TfL add further datasets from 2019 onwards.
