@@ -9,7 +9,8 @@ This repository analyses Transport for London (TfL) Incident Data from the years
 3. **Clustering**: Accidents are grouped to pinpoint high-density accident zones. This approach also reduces system resource intensity and facilitates easier viewing. If the script is used to combine more than one dataset, this will prove beneficial considering the high number of incidents.
 4. **Findings & Limitations**:
    - Certain locations consistently exhibited high incident rates, potentially indicating hazardous road conditions or significant traffic density.
-   - Where incidents have been logged twice with differing IDs, the assumption is that TfL has recorded the incident according to the number of individuals involved (e.g., an accident with three vehicles would be logged thrice with distinct IDs).
+   - Where incidents have been logged twice with differing IDs, the initial assumption (formed during the first few runs of this notebook) was that TfL had recorded the incident according to the number of individuals involved (e.g., an accident with three vehicles would be logged thrice with distinct IDs).
+   - **Update, well after those initial runs:** this turned out to be wrong. Every accident in the dataset is duplicated exactly once under a second id, and the id sequences show why - each year's "second" id range picks up exactly where the previous year's left off, and that whole second sequence is itself a direct continuation of the first sequence (2019's last first-pass id is immediately followed by 2005's first second-pass id). The two copies of a record are identical in every field except `id`. This points to the underlying data being loaded twice into whatever store the API reads from, not a per-person recording convention. The notebook now deduplicates on full record content before anything is counted or plotted.
 
 
 ## Technologies + Notable Packages Used:
@@ -183,7 +184,8 @@ Contributions are welcome! Feel free to fork this repository, make improvements,
 
 ## Assumptions about the Data
 **Incident Recording Methodology**
-- It is assumed that incidents are recorded in tandem with the number of individuals involved. This inference is drawn from observations of entries with identical attributes but differing IDs. Direct confirmation from Transport for London (TfL) would be beneficial to ensure the accuracy of subsequent data analysis.
+- Original assumption (from the first several runs of this project): incidents are recorded in tandem with the number of individuals involved, inferred from entries with identical attributes but differing IDs.
+- **Correction, discovered much later:** this assumption was wrong. Every accident in the dataset is exported exactly twice under two different sequential IDs, regardless of how many vehicles or people were involved. Grouping records by ID revealed two contiguous, non-overlapping ID ranges per year, and the "second" range for 2005 begins at exactly one more than the last "first" range ID used in 2019 - meaning both ranges are the same single counter, run through the entire 2005-2019 history twice back-to-back. Every field of a duplicated pair is identical except the ID itself. This looks like an artifact of the data being loaded into the source system twice, not a deliberate per-person logging convention. The notebook now deduplicates on full record content (ID aside) before building any statistic or map marker, which is why absolute incident counts in this README's screenshots may look roughly double what a fresh run of the current notebook produces.
 
 
 ## Possible Use-Cases
